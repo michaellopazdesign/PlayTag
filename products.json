@@ -1,0 +1,77 @@
+
+[
+  {
+    "id": "pt-wwf-01",
+    "name": "FULL METAL: THE ALBUM",
+    "artist": "WWF Anthology",
+    "price": 25.00,
+    "description": "The heavy-hitting wrestling anthology on a premium mini CD tag. Relive the iconic entrance themes of the Attitude Era, from Shawn Michaels to The Undertaker.",
+    "category": "Retro",
+    "color": "blue",
+    "imageUrl": "https://github.com/michaellopazdesign/PlayTag/blob/main/Untitled-4.png?raw=true",
+    "hoverImageUrl": "https://github.com/michaellopazdesign/PlayTag/blob/main/wwfpp.png?raw=true",
+    "discUrl": "https://github.com/michaellopazdesign/PlayTag/blob/main/WWFCD.png?raw=true",
+    "features": ["Authentic Entrance Themes", "Industrial Metal Link", "High-Gloss Protective Layer"],
+    "buyUrl": "#"
+  },
+  {
+    "id": "pt-001",
+    "name": "NEON DREAMS",
+    "artist": "Synth City",
+    "price": 19.99,
+    "description": "A crystal-clear mini CD tag with reactive neon blue ink. Features 4 tracks of high-octane synthwave beats.",
+    "category": "Cyberpunk",
+    "color": "blue",
+    "imageUrl": "https://picsum.photos/seed/neon/600/600",
+    "features": ["NFC Compatible", "Waterproof Resin", "Stainless Steel Chain"],
+    "buyUrl": "https://example.com/buy/neon-dreams"
+  },
+  {
+    "id": "pt-002",
+    "name": "PINK CASSETTE",
+    "artist": "Vapor Boy",
+    "price": 24.99,
+    "description": "Nostalgia encapsulated. A translucent magenta disc featuring lo-fi samples from the 90s.",
+    "category": "Vaporwave",
+    "color": "pink",
+    "imageUrl": "https://picsum.photos/seed/vapor/600/600",
+    "features": ["Limited Edition", "Glow-in-the-dark", "Custom Holo Foil"],
+    "buyUrl": "https://example.com/buy/pink-cassette"
+  },
+  {
+    "id": "pt-003",
+    "name": "SOLAR FLARE",
+    "artist": "Orange Drive",
+    "price": 18.50,
+    "description": "Intense orange gradient with high-gloss finish. Perfect for summer energy and fast cars.",
+    "category": "Future Funk",
+    "color": "orange",
+    "imageUrl": "https://picsum.photos/seed/solar/600/600",
+    "features": ["UV Reactive", "Scratch Resistant", "Chrome Accents"],
+    "buyUrl": "https://example.com/buy/solar-flare"
+  },
+  {
+    "id": "pt-004",
+    "name": "VOID WALKER",
+    "artist": "Deep Purple",
+    "price": 22.00,
+    "description": "The deepest purple translucent acrylic. Mysterious, sleek, and elegant.",
+    "category": "Cyberpunk",
+    "color": "purple",
+    "imageUrl": "https://picsum.photos/seed/void/600/600",
+    "features": ["Dark Mode Ready", "Matte Finish Options", "Premium Packaging"],
+    "buyUrl": "https://example.com/buy/void-walker"
+  },
+  {
+    "id": "pt-005",
+    "name": "RETRO WAVE 88",
+    "artist": "Arcade Masters",
+    "price": 20.00,
+    "description": "Inspired by the classic 8-bit era. Grid patterns and pixel-perfect aesthetics.",
+    "category": "Retro",
+    "color": "blue",
+    "imageUrl": "https://picsum.photos/seed/retro/600/600",
+    "features": ["Pixel Art Prints", "Arcade Authenticated", "Lanyard Included"],
+    "buyUrl": "https://example.com/buy/retro-wave-88"
+  }
+]

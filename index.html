@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLAYTag | The Record Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Space Grotesk', 'sans-serif'],
+              display: ['Outfit', 'sans-serif'],
+            },
+            colors: {
+              shopYellow: '#FFD700',
+              shopPink: '#FF007A',
+              shopBlue: '#0070FF',
+              shopGreen: '#00E676',
+              shopBlack: '#1A1A1A',
+            },
+            boxShadow: {
+              'pop': '8px 8px 0px 0px #1A1A1A',
+              'pop-sm': '4px 4px 0px 0px #1A1A1A',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0A0A0A;
+        color: #FFFFFF;
+        overflow-x: hidden;
+      }
+      .sticker-text {
+        background: #FFD700;
+        color: #1A1A1A;
+        padding: 2px 8px;
+        transform: rotate(-2deg);
+        display: inline-block;
+        font-weight: 900;
+      }
+      .cd-mask {
+        mask-image: radial-gradient(circle at center, transparent 15%, black 15.1%);
+        -webkit-mask-image: radial-gradient(circle at center, transparent 15%, black 15.1%);
+      }
+      .neubrutal-btn {
+        border: 3px solid #FFFFFF;
+        box-shadow: 6px 6px 0px 0px #FFFFFF;
+        transition: all 0.2s;
+      }
+      .neubrutal-btn:active {
+        transform: translate(3px, 3px);
+        box-shadow: 3px 3px 0px 0px #FFFFFF;
+      }
+      .grid-pattern {
+        background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+        background-size: 32px 32px;
+        opacity: 0.2;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.574.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.34.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
